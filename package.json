@@ -1,0 +1,41 @@
+{
+  "name": "mytheme",
+  "version": "1.0.0",
+  "configElements": [
+    {
+      "type": "text",
+      "name": "sidebarBackground",
+      "label": "主题左侧背景图片",
+      "help": "主题左侧背景图片"
+    },
+    {
+      "type": "color",
+      "name": "sidebarBackgroundColor",
+      "label": "主题左侧背景颜色",
+      "help": "选择左侧菜单背景颜色"
+    },
+    {
+      "type": "color",
+      "name": "sidebarColor",
+      "label": "主题左侧文字颜色"
+    },
+    {
+      "type": "css",
+      "name": "customCSS",
+      "label": "自定义 CSS",
+      "help": "设置网站自定义 CSS"
+    },
+    {
+      "type": "javascript",
+      "name": "customJS",
+      "label": "自定义 JS",
+      "help": "设置网站自定义 JS"
+    },
+    {
+      "type": "html",
+      "name": "cc",
+      "label": "版权信息",
+      "help": "在每篇文章之后添加版权信息"
+    }
+  ]
+}
