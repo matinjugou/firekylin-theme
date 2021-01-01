@@ -94,11 +94,6 @@
   #sidebar {
     box-shadow: none !important;
   }
-  article[class~=post] {
-    padding: 30px 10px !important;
-    border: none !important;
-    box-shadow: none !important;
-  }
   #main {
     width: 100%;
     min-height: 100%;
@@ -114,6 +109,12 @@
   }
   article[class=post] h1 {
     margin-bottom: 0;
+    padding: 10px;
+  }
+  article[class~=post] {
+    padding: 30px 10px;
+    border: none;
+    box-shadow: none;
   }
   article {
     background-color: #fff;
