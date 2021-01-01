@@ -1,6 +1,17 @@
 <!DOCTYPE html>
-<html lang="zh-CN" style="background-image:url('/theme/{{options.theme}}/res/image/background.png');">
-
+<html lang="zh-CN">
+{% if themeConfig.pageBackground %}
+<style>
+  html {
+    background-image: url('{{themeConfig.pageBackground}}');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    background-attachment: fixed;
+  }
+</style>
+{% endif %}
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
@@ -23,11 +34,10 @@
 
         {% if themeConfig.sidebarBackground %}
       #sidebar {
-      background-image: url('{{themeConfig.sidebarBackground}}');
+      background-image: linear-gradient(rgba(27, 27, 27, 0.24), rgba(27, 27, 27, 0.24)), url('{{themeConfig.sidebarBackground}}');
       background-size:cover;
        }
         {% endif %}
-
         {% if themeConfig.sidebarBackgroundColor %}
       #sidebar {
       background-color: {{ themeConfig.sidebarBackgroundColor}}; }
@@ -56,9 +66,7 @@
 </head>
 
 <body>
-  <nav id="sidebar" class="behavior_1"
-  style="background-image: linear-gradient(rgba(27, 27, 27, 0.24), rgba(27, 27, 27, 0.24)), url('/theme/{{options.theme}}/res/image/sidebar.jpg');"
-  >
+  <nav id="sidebar" class="behavior_1">
     <div class="wrap">
       <div class="profile">
         <a href="/">

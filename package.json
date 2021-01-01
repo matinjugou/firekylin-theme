@@ -9,6 +9,12 @@
       "help": "主题左侧背景图片"
     },
     {
+      "type": "text",
+      "name": "pageBackground",
+      "label": "主题页面主体背景图片",
+      "help": "主题页面主体背景图片"
+    },
+    {
       "type": "color",
       "name": "sidebarBackgroundColor",
       "label": "主题左侧背景颜色",
