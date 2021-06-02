@@ -40,9 +40,10 @@
 #sidebar .profile span {
   display: block;
   padding: 10px 0;
-  font-size: 18px;
+  font-size: 20px;
   color: #999;
   text-align: center;
+  font-family: serif;
 }
 #sidebar .buttons {
   margin: 0 0 20px;
