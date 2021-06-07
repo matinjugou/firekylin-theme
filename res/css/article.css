@@ -7,7 +7,7 @@ article {
 }
 
 #page-index article[class=post] {
-  border-radius: 20px;
+  border-radius: 5px;
   padding: 0px;
   margin-bottom: 25px;
 }
@@ -54,10 +54,10 @@ article .meta .tags {
 
 article h1.title {
   color:#333;
-  font-size:1.7em;
+  font-size:1.2em;
   font-weight:300;
-  line-height:35px;
-  margin-bottom:25px;
+  line-height:24px;
+  margin-bottom:20px;
 }
 
 article h1.title a {
